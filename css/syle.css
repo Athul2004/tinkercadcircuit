@@ -11,7 +11,11 @@ body {
     padding: 0 15px;
 }
 
+
+
+
 .heading {
+
     text-align: center;
     font-size: 40px; /* Reduced font size for mobile */
     color: #0ef;
@@ -60,7 +64,7 @@ body {
 /* Larger screens */
 @media (min-width: 768px) {
     .heading {
-        
+        text-align: center;
         font-size: 50px;
         margin-bottom: 80px;
     }
@@ -83,15 +87,7 @@ body {
     }
 }
 
-@media (min-width: 1024px) {
-    .skills-container {
-        grid-template-columns: repeat(1, 1fr); /* Three columns for larger screens */
-    }
 
-    .heading {
-        font-size: 60px;
-    }
-}
 
 
 /* Media Queries for responsiveness */
