@@ -26,6 +26,14 @@ body {
     font-weight: 300;
     margin-bottom: 50px; /* Reduced margin for smaller screens */
 }
+.mobile {
+    text-align: center;
+    font-size: 36px; /* Reduced font size for mobile */
+    color: #ff0000;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 50px; /* Reduced margin for smaller screens */
+}
 
 .skills-container {
     width: 100%;
@@ -70,6 +78,11 @@ body {
         font-size: 48px; /* Increased font size for tablets */
         margin-bottom: 80px;
     }
+    .mobile {
+        font-size: 48px; /* Increased font size for tablets */
+        margin-bottom: 80px;
+        color: rgb(255, 0, 0);
+    }
 
     .skills-container {
         grid-template-columns: repeat(1, 1fr); /* Two columns for tablets */
@@ -103,6 +116,11 @@ body {
     .skills-container {
         grid-template-columns: repeat(1, 1fr); /* Three columns for desktops */
         grid-gap: 80px;
+    }
+    .mobile {
+        font-size: 48px; /* Increased font size for tablets */
+        margin-bottom: 80px;
+        color: #151925;
     }
 }
 
