@@ -87,6 +87,10 @@ body {
     .skill-info {
         font-size: 18px; /* Increased font size for readability */
     }
+    iframe {
+        height: 600; /* Adjust the height for smaller screens */
+        width: 1200;
+      }
 }
 
 /* Larger Screens - Desktops */
@@ -101,13 +105,5 @@ body {
         grid-gap: 80px;
     }
 }
-@media (max-width: 768px) {
-    .skill-card {
-      padding: 10px;
-    }
-  
-    iframe {
-      height: 300px; /* Adjust the height for smaller screens */
-    }
-  }
+
 
