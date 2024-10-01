@@ -72,6 +72,32 @@ body {
     line-height: 24px; /* Reduced line height for a more compact view */
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: #1e2a3a;
+
+}
+
+.footer-text p {
+    font-size: 1rem;
+    color: #fff;
+}
+.footer-text b {
+    font-size: 1rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text a {
+    color: #0ef;
+}
+
+
 /* Larger Screens - Tablets and Up */
 @media (min-width: 768px) {
     .heading {
