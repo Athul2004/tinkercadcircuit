@@ -101,4 +101,13 @@ body {
         grid-gap: 80px;
     }
 }
+@media (max-width: 768px) {
+    .skill-card {
+      padding: 10px;
+    }
+  
+    iframe {
+      height: 300px; /* Adjust the height for smaller screens */
+    }
+  }
 
